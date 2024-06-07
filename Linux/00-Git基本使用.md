@@ -19,5 +19,25 @@ git log
 
 ```bash
 git log --pretty=oneline
+git reflog # 查看每一步的操作
+```
+
+## 版本回退
+
+使用git reset可以回退版本
+
+```bash
+git reset --hard HEAD^  # 回退到上一个版本
+git reset --hard HEAD^^ # 回退到上上个版本
+git reset --hard HEAD~100 # 回退到上100个版本
+git reset --hard 版本号 # 回退到指定版本号的版本
+```
+
+## 撤销修改
+
+修改后可以撤销，使用如下指令撤销回修改前的状态
+
+```bash
+git checkout -- file
 ```
 
