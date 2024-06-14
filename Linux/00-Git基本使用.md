@@ -53,7 +53,7 @@ git rm test.txt
 git commit -m "删除了test文件" # 这时可以删除成功
 ```
 
-## 本地库远程连接github
+# 本地库远程连接github
 
 1、**生成SSH密钥对**（如果还没有生成）：
 
@@ -76,3 +76,46 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 bash复制代码eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 ```
+
+# 分支管理
+
+## 创建分支
+
+``` bash
+git checkout -b dev # -b的意思为创建并切换到dev分支
+# 以上一条命令相当于以下两条
+git branch dev # 创建分支
+git checkout dev # 切换分支
+
+git branch # 查看分支
+```
+
+## 合并分支
+
+在分支中所作的操作，在main中无法体现，二者是相互独立的
+
+所以当在dev分支中做了一些改动后回到main分支，那么之前的那些改动在main分支中都是不存在的
+
+所以如果确定dev分支中所作的改动确实是main所需要的后，就可以将dev分支合并到main分支上
+
+先切换到main分支上，然后使用git merge dev即可合并
+
+## 删除分支
+
+```bash
+git branch -d dev
+```
+
+## 小结
+
+查看分支：`git branch`
+
+创建分支：`git branch <name>`
+
+切换分支：`git checkout <name>`或者`git switch <name>`
+
+创建+切换分支：`git checkout -b <name>`或者`git switch -c <name>`
+
+合并某分支到当前分支：`git merge <name>`
+
+删除分支：`git branch -d <name>`
