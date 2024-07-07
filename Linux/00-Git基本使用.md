@@ -119,3 +119,12 @@ git branch -d dev
 合并某分支到当前分支：`git merge <name>`
 
 删除分支：`git branch -d <name>`
+
+
+
+# 设置代理
+
+```git
+git config --global http.proxy 127.0.0.1:7890
+git config --global https.proxy 127.0.0.1:7890
+```

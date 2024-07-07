@@ -1,0 +1,3 @@
+/mnt/f/WSL/NoteBook/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir
+/mnt/f/WSL/NoteBook/leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/f/WSL/NoteBook/leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
