@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/leetcode.dir/239_滑动窗口最大值.cpp.o"
   "CMakeFiles/leetcode.dir/239_滑动窗口最大值.cpp.o.d"
+  "CMakeFiles/leetcode.dir/27_移除元素.cpp.o"
+  "CMakeFiles/leetcode.dir/27_移除元素.cpp.o.d"
   "CMakeFiles/leetcode.dir/30_串联所有单词的子串.cpp.o"
   "CMakeFiles/leetcode.dir/30_串联所有单词的子串.cpp.o.d"
   "CMakeFiles/leetcode.dir/438_找到字符串中所有字母异位词.cpp.o"

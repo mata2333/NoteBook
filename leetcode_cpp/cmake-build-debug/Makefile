@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/f/WSL/NoteBook/leetcode
+CMAKE_SOURCE_DIR = /mnt/f/WSL/NoteBook/leetcode_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/f/WSL/NoteBook/leetcode/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/f/WSL/NoteBook/leetcode_cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/WSL/NoteBook/leetcode/cmake-build-debug/CMakeFiles /mnt/f/WSL/NoteBook/leetcode/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles /mnt/f/WSL/NoteBook/leetcode_cpp/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/WSL/NoteBook/leetcode/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,6 +152,30 @@ leetcode/fast:
 239_滑动窗口最大值.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/239_滑动窗口最大值.cpp.s
 .PHONY : 239_滑动窗口最大值.cpp.s
+
+27_移除元素.o: 27_移除元素.cpp.o
+.PHONY : 27_移除元素.o
+
+# target to build an object file
+27_移除元素.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/27_移除元素.cpp.o
+.PHONY : 27_移除元素.cpp.o
+
+27_移除元素.i: 27_移除元素.cpp.i
+.PHONY : 27_移除元素.i
+
+# target to preprocess a source file
+27_移除元素.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/27_移除元素.cpp.i
+.PHONY : 27_移除元素.cpp.i
+
+27_移除元素.s: 27_移除元素.cpp.s
+.PHONY : 27_移除元素.s
+
+# target to generate assembly for a file
+27_移除元素.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/27_移除元素.cpp.s
+.PHONY : 27_移除元素.cpp.s
 
 30_串联所有单词的子串.o: 30_串联所有单词的子串.cpp.o
 .PHONY : 30_串联所有单词的子串.o
@@ -237,6 +261,9 @@ help:
 	@echo "... 239_滑动窗口最大值.o"
 	@echo "... 239_滑动窗口最大值.i"
 	@echo "... 239_滑动窗口最大值.s"
+	@echo "... 27_移除元素.o"
+	@echo "... 27_移除元素.i"
+	@echo "... 27_移除元素.s"
 	@echo "... 30_串联所有单词的子串.o"
 	@echo "... 30_串联所有单词的子串.i"
 	@echo "... 30_串联所有单词的子串.s"
