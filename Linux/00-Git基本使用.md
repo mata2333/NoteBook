@@ -57,9 +57,7 @@ git commit -m "删除了test文件" # 这时可以删除成功
 
 1、**生成SSH密钥对**（如果还没有生成）：
 
-```
-bash
-复制代码
+```bash
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
@@ -72,8 +70,8 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 3、**启动SSH代理并添加密钥**：
 
-```
-bash复制代码eval "$(ssh-agent -s)"
+```bash
+eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 ```
 
