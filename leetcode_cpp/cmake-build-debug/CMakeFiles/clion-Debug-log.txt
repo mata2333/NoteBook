@@ -1,4 +1,4 @@
-C:\Windows\system32\wsl.exe --distribution Ubuntu --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/f/WSL/NoteBook/leetcode_cpp/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/f/WSL/NoteBook/leetcode_cpp -B /mnt/f/WSL/NoteBook/leetcode_cpp/cmake-build-debug"
+C:\WINDOWS\system32\wsl.exe --distribution Ubuntu --exec "/mnt/d/Program Files/JetBrains/CLion 2024.1/bin/ttyfix" /bin/bash -c "export CLION_IDE=TRUE && export CMAKE_COLOR_DIAGNOSTICS=ON && export JETBRAINS_IDE=TRUE && cd /mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/d/WSL/NoteBook/leetcode_cpp -B /mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug"
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/f/WSL/NoteBook/leetcode_cpp/cmake-build-debug
+-- Build files have been written to: /mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/f/WSL/NoteBook/leetcode_cpp
+CMAKE_SOURCE_DIR = /mnt/d/WSL/NoteBook/leetcode_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/f/WSL/NoteBook/leetcode_cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/leetcode.dir/clean
 CMakeFiles/leetcode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target leetcode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target leetcode"
 .PHONY : CMakeFiles/leetcode.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/leetcode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/leetcode.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/leetcode.dir/rule
 
 # Convenience name for target.

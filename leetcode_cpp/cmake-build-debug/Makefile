@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/f/WSL/NoteBook/leetcode_cpp
+CMAKE_SOURCE_DIR = /mnt/d/WSL/NoteBook/leetcode_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/f/WSL/NoteBook/leetcode_cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles /mnt/f/WSL/NoteBook/leetcode_cpp/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles /mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,30 @@ leetcode: cmake_check_build_system
 leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
+
+209_长度最小的子数组.o: 209_长度最小的子数组.cpp.o
+.PHONY : 209_长度最小的子数组.o
+
+# target to build an object file
+209_长度最小的子数组.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/209_长度最小的子数组.cpp.o
+.PHONY : 209_长度最小的子数组.cpp.o
+
+209_长度最小的子数组.i: 209_长度最小的子数组.cpp.i
+.PHONY : 209_长度最小的子数组.i
+
+# target to preprocess a source file
+209_长度最小的子数组.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/209_长度最小的子数组.cpp.i
+.PHONY : 209_长度最小的子数组.cpp.i
+
+209_长度最小的子数组.s: 209_长度最小的子数组.cpp.s
+.PHONY : 209_长度最小的子数组.s
+
+# target to generate assembly for a file
+209_长度最小的子数组.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/209_长度最小的子数组.cpp.s
+.PHONY : 209_长度最小的子数组.cpp.s
 
 239_滑动窗口最大值.o: 239_滑动窗口最大值.cpp.o
 .PHONY : 239_滑动窗口最大值.o
@@ -225,6 +249,30 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/438_找到字符串中所有字母异位词.cpp.s
 .PHONY : 438_找到字符串中所有字母异位词.cpp.s
 
+977_有序数组的平方.o: 977_有序数组的平方.cpp.o
+.PHONY : 977_有序数组的平方.o
+
+# target to build an object file
+977_有序数组的平方.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/977_有序数组的平方.cpp.o
+.PHONY : 977_有序数组的平方.cpp.o
+
+977_有序数组的平方.i: 977_有序数组的平方.cpp.i
+.PHONY : 977_有序数组的平方.i
+
+# target to preprocess a source file
+977_有序数组的平方.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/977_有序数组的平方.cpp.i
+.PHONY : 977_有序数组的平方.cpp.i
+
+977_有序数组的平方.s: 977_有序数组的平方.cpp.s
+.PHONY : 977_有序数组的平方.s
+
+# target to generate assembly for a file
+977_有序数组的平方.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/977_有序数组的平方.cpp.s
+.PHONY : 977_有序数组的平方.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -258,6 +306,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode"
+	@echo "... 209_长度最小的子数组.o"
+	@echo "... 209_长度最小的子数组.i"
+	@echo "... 209_长度最小的子数组.s"
 	@echo "... 239_滑动窗口最大值.o"
 	@echo "... 239_滑动窗口最大值.i"
 	@echo "... 239_滑动窗口最大值.s"
@@ -270,6 +321,9 @@ help:
 	@echo "... 438_找到字符串中所有字母异位词.o"
 	@echo "... 438_找到字符串中所有字母异位词.i"
 	@echo "... 438_找到字符串中所有字母异位词.s"
+	@echo "... 977_有序数组的平方.o"
+	@echo "... 977_有序数组的平方.i"
+	@echo "... 977_有序数组的平方.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
