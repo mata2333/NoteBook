@@ -7,92 +7,7 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1708c2fe-1cf3-4e27-816a-6b7c9e50c3fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../leetcode_cpp/209_长度最小的子数组.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode_cpp/977_有序数组的平方.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/209_长度最小的子数组.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/977_有序数组的平方.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/1fnzfmz0so7dxj2z.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/1j2l5lgki0f7q10o.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/1njplq8n9wfmee8b.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/1tt0g26np1udtrx6.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/24ez4n8tgqqso8tv.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/2e32cgbo6vh6c7ur.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/2h7uuo3cdkch4dw.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/2i89h3lan3t1x1uq.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/2ska5qes13rxu09b.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/3p75pwkzsb01j7y3.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/3wsf8dw9lx6n9tfc.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/3znfr26h9ydi14w3.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/487qegaaxtbz7v3q.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/4depz7hkiczgu9q3.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/4l5vvoa4dz77ut2g.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/53uglhd247kktdiq.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/dep-graph.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/query-cache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/work-products.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/.cmake/api/v1/reply/cache-v2-7068572e4aa274d081e9.json" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/.cmake/api/v1/reply/cache-v2-bc5a5ba83891c1494dc5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-425c462a06238103fc15.json" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-7a776b4f989f1e64b48f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-bbdd92ae87b970231312.json" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-dd120bb6b60170349984.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/.cmake/api/v1/reply/index-2024-07-08T11-17-36-0772.json" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/.cmake/api/v1/reply/index-2024-07-10T07-33-04-0369.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/.cmake/api/v1/reply/target-leetcode-Debug-584bb83527498b52ee71.json" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/.cmake/api/v1/reply/target-leetcode-Debug-cd6c41a5977464257186.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/leetcode.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/leetcode.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/leetcode.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/leetcode.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/leetcode.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/leetcode.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/leetcode.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/leetcode.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/leetcode.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/leetcode.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/leetcode.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp/cmake-build-debug/leetcode.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/.rustc_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/leetcode_rust-7286cbe5151954ab/bin-leetcode_rust" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/leetcode_rust-7286cbe5151954ab/bin-leetcode_rust.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/leetcode_rust-7286cbe5151954ab/dep-bin-leetcode_rust" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/leetcode_rust-7286cbe5151954ab/invoked.timestamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/deps/leetcode_rust-4c9cc1d5353ccfe6" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/leetcode_rust-4c9cc1d5353ccfe6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/deps/leetcode_rust-4c9cc1d5353ccfe6.d" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/leetcode_rust-4c9cc1d5353ccfe6.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/deps/leetcode_rust.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/deps/leetcode_rust.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/deps/leetcode_rust.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxt31s0uk9-fb7jgf-6iftj1xepevpcwyrh6d6vavop/1j2l5lgki0f7q10o.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxt31s0uk9-fb7jgf-6iftj1xepevpcwyrh6d6vavop/1tt0g26np1udtrx6.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxt31s0uk9-fb7jgf-6iftj1xepevpcwyrh6d6vavop/1up8i2x3pi7q399o.o" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/1up8i2x3pi7q399o.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxt31s0uk9-fb7jgf-6iftj1xepevpcwyrh6d6vavop/2juddq5u2ia50s3g.o" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/2juddq5u2ia50s3g.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxt31s0uk9-fb7jgf-6iftj1xepevpcwyrh6d6vavop/37z7brdolgqq1wen.o" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl-t7e0lv95g4ojmpdgiswukg9t/37z7brdolgqq1wen.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxt31s0uk9-fb7jgf-6iftj1xepevpcwyrh6d6vavop/4depz7hkiczgu9q3.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxt31s0uk9-fb7jgf-6iftj1xepevpcwyrh6d6vavop/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxt31s0uk9-fb7jgf-6iftj1xepevpcwyrh6d6vavop/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxt31s0uk9-fb7jgf-6iftj1xepevpcwyrh6d6vavop/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxt31s0uk9-fb7jgf.lock" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2x3c9f1z9tu8w/s-gxwh7f38vs-bd4nvl.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2y34m3lxb9s0d/s-gxt335qu2t-1qavbyx-1emzgasgcyoj1efzv0eehc685/1qniqoq2szt542ju.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2y34m3lxb9s0d/s-gxt335qu2t-1qavbyx-1emzgasgcyoj1efzv0eehc685/2g03i2u4zkw6zq43.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2y34m3lxb9s0d/s-gxt335qu2t-1qavbyx-1emzgasgcyoj1efzv0eehc685/2vubgh9svyaul26m.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2y34m3lxb9s0d/s-gxt335qu2t-1qavbyx-1emzgasgcyoj1efzv0eehc685/3bfu92zt2kcada28.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2y34m3lxb9s0d/s-gxt335qu2t-1qavbyx-1emzgasgcyoj1efzv0eehc685/4crleh0xrc7v50rg.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2y34m3lxb9s0d/s-gxt335qu2t-1qavbyx-1emzgasgcyoj1efzv0eehc685/4z5rbi6asaq58fpq.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2y34m3lxb9s0d/s-gxt335qu2t-1qavbyx-1emzgasgcyoj1efzv0eehc685/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2y34m3lxb9s0d/s-gxt335qu2t-1qavbyx-1emzgasgcyoj1efzv0eehc685/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2y34m3lxb9s0d/s-gxt335qu2t-1qavbyx-1emzgasgcyoj1efzv0eehc685/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/leetcode_rust-2y34m3lxb9s0d/s-gxt335qu2t-1qavbyx.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/leetcode_rust" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/leetcode_rust" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/leetcode_rust.d" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/leetcode_rust.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/leetcode_rust.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/leetcode_rust.pdb" beforeDir="false" />
-    </list>
+    <list default="true" id="1708c2fe-1cf3-4e27-816a-6b7c9e50c3fa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720595833043</updated>
-      <workItem from="1720595834585" duration="3340000" />
+      <workItem from="1720595834585" duration="3931000" />
     </task>
     <servers />
   </component>
