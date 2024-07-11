@@ -249,6 +249,30 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/438_找到字符串中所有字母异位词.cpp.s
 .PHONY : 438_找到字符串中所有字母异位词.cpp.s
 
+59_螺旋矩阵II.o: 59_螺旋矩阵II.cpp.o
+.PHONY : 59_螺旋矩阵II.o
+
+# target to build an object file
+59_螺旋矩阵II.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/59_螺旋矩阵II.cpp.o
+.PHONY : 59_螺旋矩阵II.cpp.o
+
+59_螺旋矩阵II.i: 59_螺旋矩阵II.cpp.i
+.PHONY : 59_螺旋矩阵II.i
+
+# target to preprocess a source file
+59_螺旋矩阵II.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/59_螺旋矩阵II.cpp.i
+.PHONY : 59_螺旋矩阵II.cpp.i
+
+59_螺旋矩阵II.s: 59_螺旋矩阵II.cpp.s
+.PHONY : 59_螺旋矩阵II.s
+
+# target to generate assembly for a file
+59_螺旋矩阵II.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/59_螺旋矩阵II.cpp.s
+.PHONY : 59_螺旋矩阵II.cpp.s
+
 977_有序数组的平方.o: 977_有序数组的平方.cpp.o
 .PHONY : 977_有序数组的平方.o
 
@@ -321,6 +345,9 @@ help:
 	@echo "... 438_找到字符串中所有字母异位词.o"
 	@echo "... 438_找到字符串中所有字母异位词.i"
 	@echo "... 438_找到字符串中所有字母异位词.s"
+	@echo "... 59_螺旋矩阵II.o"
+	@echo "... 59_螺旋矩阵II.i"
+	@echo "... 59_螺旋矩阵II.s"
 	@echo "... 977_有序数组的平方.o"
 	@echo "... 977_有序数组的平方.i"
 	@echo "... 977_有序数组的平方.s"

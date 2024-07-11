@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/leetcode.dir/30_串联所有单词的子串.cpp.o.d"
   "CMakeFiles/leetcode.dir/438_找到字符串中所有字母异位词.cpp.o"
   "CMakeFiles/leetcode.dir/438_找到字符串中所有字母异位词.cpp.o.d"
+  "CMakeFiles/leetcode.dir/59_螺旋矩阵II.cpp.o"
+  "CMakeFiles/leetcode.dir/59_螺旋矩阵II.cpp.o.d"
   "CMakeFiles/leetcode.dir/977_有序数组的平方.cpp.o"
   "CMakeFiles/leetcode.dir/977_有序数组的平方.cpp.o.d"
   "CMakeFiles/leetcode.dir/main.cpp.o"

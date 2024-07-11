@@ -3,27 +3,45 @@ struct Solution {
 }
 
 impl Solution {
-    pub fn min_sub_array_len(target: i32, nums: Vec<i32>) -> i32 {
-        let mut ans: usize = 0;
-        let mut sum: i32 = 0;
-        let mut left:usize = 0;
-        for right in 0..nums.len() {
-            sum += nums[right];
-            while sum >= target {
-                if ans == 0 || ans > (right - left + 1) {
-                    ans = right - left + 1;
-                }
-                sum -= nums[left];
-                left += 1;
+    pub fn generate_matrix(n: i32) -> Vec<Vec<i32>> {
+        let mut matrix = vec![vec![0; n as usize]; n as usize];
+        let mut offset:usize = 0;
+        let n_t = n as usize;
+        let mut count = 1;
+        let mut i:usize = 0;
+        let mut j:usize = 0;
+        while offset < n_t / 2 {
+            i = offset;
+            j = offset;
+            while j < n_t - 1 - offset {
+                matrix[offset][j] = count;
+                j += 1;
+                count += 1;
             }
+            while i < n_t - 1 - offset {
+                matrix[i][j] = count;
+                i += 1;
+                count += 1;
+            }
+            while j > offset {
+                matrix[i][j] = count;
+                j -= 1;
+                count += 1;
+            }
+            while i > offset {
+                matrix[i][j] = count;
+                i -= 1;
+                count += 1;
+            }
+            offset += 1;
         }
-        return ans as i32
+        if n % 2 != 0 {
+            matrix[n_t / 2][n_t / 2] = count;
+        }
+        return matrix;
     }
 }
 
 fn main() {
-    let input = vec![2,3,1,2,4,3];
-    let target = 7;
-    let ans = Solution::min_sub_array_len(target, input);
-    println!("{}", ans);
+    let ans = Solution::generate_matrix(4);
 }
