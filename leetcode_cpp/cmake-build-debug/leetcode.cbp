@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/d/WSL/NoteBook/leetcode_cpp/203_移除链表元素.cpp">
+			<Option target="leetcode"/>
+		</Unit>
 		<Unit filename="/mnt/d/WSL/NoteBook/leetcode_cpp/209_长度最小的子数组.cpp">
 			<Option target="leetcode"/>
 		</Unit>
@@ -98,6 +101,9 @@
 			<Option target="leetcode"/>
 		</Unit>
 		<Unit filename="/mnt/d/WSL/NoteBook/leetcode_cpp/59_螺旋矩阵II.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/mnt/d/WSL/NoteBook/leetcode_cpp/707_设计链表.cpp">
 			<Option target="leetcode"/>
 		</Unit>
 		<Unit filename="/mnt/d/WSL/NoteBook/leetcode_cpp/977_有序数组的平方.cpp">

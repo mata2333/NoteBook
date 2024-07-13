@@ -10,4 +10,6 @@ add_executable(leetcode main.cpp 30_串联所有单词的子串.cpp 438_找到�
         977_有序数组的平方.cpp
         209_长度最小的子数组.cpp
         59_螺旋矩阵II.cpp
-        59_螺旋矩阵II.cpp)
+        59_螺旋矩阵II.cpp
+        203_移除链表元素.cpp
+        707_设计链表.cpp)

@@ -129,6 +129,30 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
+203_移除链表元素.o: 203_移除链表元素.cpp.o
+.PHONY : 203_移除链表元素.o
+
+# target to build an object file
+203_移除链表元素.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/203_移除链表元素.cpp.o
+.PHONY : 203_移除链表元素.cpp.o
+
+203_移除链表元素.i: 203_移除链表元素.cpp.i
+.PHONY : 203_移除链表元素.i
+
+# target to preprocess a source file
+203_移除链表元素.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/203_移除链表元素.cpp.i
+.PHONY : 203_移除链表元素.cpp.i
+
+203_移除链表元素.s: 203_移除链表元素.cpp.s
+.PHONY : 203_移除链表元素.s
+
+# target to generate assembly for a file
+203_移除链表元素.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/203_移除链表元素.cpp.s
+.PHONY : 203_移除链表元素.cpp.s
+
 209_长度最小的子数组.o: 209_长度最小的子数组.cpp.o
 .PHONY : 209_长度最小的子数组.o
 
@@ -273,6 +297,30 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/59_螺旋矩阵II.cpp.s
 .PHONY : 59_螺旋矩阵II.cpp.s
 
+707_设计链表.o: 707_设计链表.cpp.o
+.PHONY : 707_设计链表.o
+
+# target to build an object file
+707_设计链表.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/707_设计链表.cpp.o
+.PHONY : 707_设计链表.cpp.o
+
+707_设计链表.i: 707_设计链表.cpp.i
+.PHONY : 707_设计链表.i
+
+# target to preprocess a source file
+707_设计链表.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/707_设计链表.cpp.i
+.PHONY : 707_设计链表.cpp.i
+
+707_设计链表.s: 707_设计链表.cpp.s
+.PHONY : 707_设计链表.s
+
+# target to generate assembly for a file
+707_设计链表.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/707_设计链表.cpp.s
+.PHONY : 707_设计链表.cpp.s
+
 977_有序数组的平方.o: 977_有序数组的平方.cpp.o
 .PHONY : 977_有序数组的平方.o
 
@@ -330,6 +378,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode"
+	@echo "... 203_移除链表元素.o"
+	@echo "... 203_移除链表元素.i"
+	@echo "... 203_移除链表元素.s"
 	@echo "... 209_长度最小的子数组.o"
 	@echo "... 209_长度最小的子数组.i"
 	@echo "... 209_长度最小的子数组.s"
@@ -348,6 +399,9 @@ help:
 	@echo "... 59_螺旋矩阵II.o"
 	@echo "... 59_螺旋矩阵II.i"
 	@echo "... 59_螺旋矩阵II.s"
+	@echo "... 707_设计链表.o"
+	@echo "... 707_设计链表.i"
+	@echo "... 707_设计链表.s"
 	@echo "... 977_有序数组的平方.o"
 	@echo "... 977_有序数组的平方.i"
 	@echo "... 977_有序数组的平方.s"
