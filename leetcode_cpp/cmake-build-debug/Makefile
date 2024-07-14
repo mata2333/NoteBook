@@ -153,6 +153,30 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/203_移除链表元素.cpp.s
 .PHONY : 203_移除链表元素.cpp.s
 
+206_反转链表.o: 206_反转链表.cpp.o
+.PHONY : 206_反转链表.o
+
+# target to build an object file
+206_反转链表.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/206_反转链表.cpp.o
+.PHONY : 206_反转链表.cpp.o
+
+206_反转链表.i: 206_反转链表.cpp.i
+.PHONY : 206_反转链表.i
+
+# target to preprocess a source file
+206_反转链表.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/206_反转链表.cpp.i
+.PHONY : 206_反转链表.cpp.i
+
+206_反转链表.s: 206_反转链表.cpp.s
+.PHONY : 206_反转链表.s
+
+# target to generate assembly for a file
+206_反转链表.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/206_反转链表.cpp.s
+.PHONY : 206_反转链表.cpp.s
+
 209_长度最小的子数组.o: 209_长度最小的子数组.cpp.o
 .PHONY : 209_长度最小的子数组.o
 
@@ -381,6 +405,9 @@ help:
 	@echo "... 203_移除链表元素.o"
 	@echo "... 203_移除链表元素.i"
 	@echo "... 203_移除链表元素.s"
+	@echo "... 206_反转链表.o"
+	@echo "... 206_反转链表.i"
+	@echo "... 206_反转链表.s"
 	@echo "... 209_长度最小的子数组.o"
 	@echo "... 209_长度最小的子数组.i"
 	@echo "... 209_长度最小的子数组.s"

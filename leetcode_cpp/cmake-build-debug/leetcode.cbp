@@ -85,6 +85,9 @@
 		<Unit filename="/mnt/d/WSL/NoteBook/leetcode_cpp/203_移除链表元素.cpp">
 			<Option target="leetcode"/>
 		</Unit>
+		<Unit filename="/mnt/d/WSL/NoteBook/leetcode_cpp/206_反转链表.cpp">
+			<Option target="leetcode"/>
+		</Unit>
 		<Unit filename="/mnt/d/WSL/NoteBook/leetcode_cpp/209_长度最小的子数组.cpp">
 			<Option target="leetcode"/>
 		</Unit>
