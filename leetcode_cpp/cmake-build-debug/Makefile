@@ -225,6 +225,30 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/239_滑动窗口最大值.cpp.s
 .PHONY : 239_滑动窗口最大值.cpp.s
 
+24_两两交换链表中的节点.o: 24_两两交换链表中的节点.cpp.o
+.PHONY : 24_两两交换链表中的节点.o
+
+# target to build an object file
+24_两两交换链表中的节点.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/24_两两交换链表中的节点.cpp.o
+.PHONY : 24_两两交换链表中的节点.cpp.o
+
+24_两两交换链表中的节点.i: 24_两两交换链表中的节点.cpp.i
+.PHONY : 24_两两交换链表中的节点.i
+
+# target to preprocess a source file
+24_两两交换链表中的节点.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/24_两两交换链表中的节点.cpp.i
+.PHONY : 24_两两交换链表中的节点.cpp.i
+
+24_两两交换链表中的节点.s: 24_两两交换链表中的节点.cpp.s
+.PHONY : 24_两两交换链表中的节点.s
+
+# target to generate assembly for a file
+24_两两交换链表中的节点.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/24_两两交换链表中的节点.cpp.s
+.PHONY : 24_两两交换链表中的节点.cpp.s
+
 27_移除元素.o: 27_移除元素.cpp.o
 .PHONY : 27_移除元素.o
 
@@ -414,6 +438,9 @@ help:
 	@echo "... 239_滑动窗口最大值.o"
 	@echo "... 239_滑动窗口最大值.i"
 	@echo "... 239_滑动窗口最大值.s"
+	@echo "... 24_两两交换链表中的节点.o"
+	@echo "... 24_两两交换链表中的节点.i"
+	@echo "... 24_两两交换链表中的节点.s"
 	@echo "... 27_移除元素.o"
 	@echo "... 27_移除元素.i"
 	@echo "... 27_移除元素.s"

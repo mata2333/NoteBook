@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/leetcode.dir/209_长度最小的子数组.cpp.o.d"
   "CMakeFiles/leetcode.dir/239_滑动窗口最大值.cpp.o"
   "CMakeFiles/leetcode.dir/239_滑动窗口最大值.cpp.o.d"
+  "CMakeFiles/leetcode.dir/24_两两交换链表中的节点.cpp.o"
+  "CMakeFiles/leetcode.dir/24_两两交换链表中的节点.cpp.o.d"
   "CMakeFiles/leetcode.dir/27_移除元素.cpp.o"
   "CMakeFiles/leetcode.dir/27_移除元素.cpp.o.d"
   "CMakeFiles/leetcode.dir/30_串联所有单词的子串.cpp.o"
