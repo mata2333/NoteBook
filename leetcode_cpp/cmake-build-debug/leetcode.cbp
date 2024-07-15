@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/d/WSL/NoteBook/leetcode_cpp/160_相交链表.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/mnt/d/WSL/NoteBook/leetcode_cpp/19_删除链表的倒数第 N 个结点.cpp">
+			<Option target="leetcode"/>
+		</Unit>
 		<Unit filename="/mnt/d/WSL/NoteBook/leetcode_cpp/203_移除链表元素.cpp">
 			<Option target="leetcode"/>
 		</Unit>
