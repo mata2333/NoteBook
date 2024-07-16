@@ -129,6 +129,30 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
+142_环形链表II.o: 142_环形链表II.cpp.o
+.PHONY : 142_环形链表II.o
+
+# target to build an object file
+142_环形链表II.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/142_环形链表II.cpp.o
+.PHONY : 142_环形链表II.cpp.o
+
+142_环形链表II.i: 142_环形链表II.cpp.i
+.PHONY : 142_环形链表II.i
+
+# target to preprocess a source file
+142_环形链表II.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/142_环形链表II.cpp.i
+.PHONY : 142_环形链表II.cpp.i
+
+142_环形链表II.s: 142_环形链表II.cpp.s
+.PHONY : 142_环形链表II.s
+
+# target to generate assembly for a file
+142_环形链表II.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/142_环形链表II.cpp.s
+.PHONY : 142_环形链表II.cpp.s
+
 160_相交链表.o: 160_相交链表.cpp.o
 .PHONY : 160_相交链表.o
 
@@ -272,6 +296,30 @@ leetcode/fast:
 239_滑动窗口最大值.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/239_滑动窗口最大值.cpp.s
 .PHONY : 239_滑动窗口最大值.cpp.s
+
+242_有效的字母异位词.o: 242_有效的字母异位词.cpp.o
+.PHONY : 242_有效的字母异位词.o
+
+# target to build an object file
+242_有效的字母异位词.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/242_有效的字母异位词.cpp.o
+.PHONY : 242_有效的字母异位词.cpp.o
+
+242_有效的字母异位词.i: 242_有效的字母异位词.cpp.i
+.PHONY : 242_有效的字母异位词.i
+
+# target to preprocess a source file
+242_有效的字母异位词.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/242_有效的字母异位词.cpp.i
+.PHONY : 242_有效的字母异位词.cpp.i
+
+242_有效的字母异位词.s: 242_有效的字母异位词.cpp.s
+.PHONY : 242_有效的字母异位词.s
+
+# target to generate assembly for a file
+242_有效的字母异位词.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/242_有效的字母异位词.cpp.s
+.PHONY : 242_有效的字母异位词.cpp.s
 
 24_两两交换链表中的节点.o: 24_两两交换链表中的节点.cpp.o
 .PHONY : 24_两两交换链表中的节点.o
@@ -474,6 +522,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode"
+	@echo "... 142_环形链表II.o"
+	@echo "... 142_环形链表II.i"
+	@echo "... 142_环形链表II.s"
 	@echo "... 160_相交链表.o"
 	@echo "... 160_相交链表.i"
 	@echo "... 160_相交链表.s"
@@ -492,6 +543,9 @@ help:
 	@echo "... 239_滑动窗口最大值.o"
 	@echo "... 239_滑动窗口最大值.i"
 	@echo "... 239_滑动窗口最大值.s"
+	@echo "... 242_有效的字母异位词.o"
+	@echo "... 242_有效的字母异位词.i"
+	@echo "... 242_有效的字母异位词.s"
 	@echo "... 24_两两交换链表中的节点.o"
 	@echo "... 24_两两交换链表中的节点.i"
 	@echo "... 24_两两交换链表中的节点.s"

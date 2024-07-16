@@ -16,4 +16,6 @@ add_executable(leetcode main.cpp 30_串联所有单词的子串.cpp 438_找到�
         206_反转链表.cpp
         24_两两交换链表中的节点.cpp
         "19_删除链表的倒数第 N 个结点.cpp"
-        160_相交链表.cpp)
+        160_相交链表.cpp
+        142_环形链表II.cpp
+        242_有效的字母异位词.cpp)
