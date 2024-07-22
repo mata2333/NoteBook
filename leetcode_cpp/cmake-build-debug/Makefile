@@ -201,6 +201,54 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/19_删除链表的倒数第_N_个结点.cpp.s
 .PHONY : 19_删除链表的倒数第_N_个结点.cpp.s
 
+1_两数之和.o: 1_两数之和.cpp.o
+.PHONY : 1_两数之和.o
+
+# target to build an object file
+1_两数之和.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/1_两数之和.cpp.o
+.PHONY : 1_两数之和.cpp.o
+
+1_两数之和.i: 1_两数之和.cpp.i
+.PHONY : 1_两数之和.i
+
+# target to preprocess a source file
+1_两数之和.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/1_两数之和.cpp.i
+.PHONY : 1_两数之和.cpp.i
+
+1_两数之和.s: 1_两数之和.cpp.s
+.PHONY : 1_两数之和.s
+
+# target to generate assembly for a file
+1_两数之和.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/1_两数之和.cpp.s
+.PHONY : 1_两数之和.cpp.s
+
+202_快乐数.o: 202_快乐数.cpp.o
+.PHONY : 202_快乐数.o
+
+# target to build an object file
+202_快乐数.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/202_快乐数.cpp.o
+.PHONY : 202_快乐数.cpp.o
+
+202_快乐数.i: 202_快乐数.cpp.i
+.PHONY : 202_快乐数.i
+
+# target to preprocess a source file
+202_快乐数.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/202_快乐数.cpp.i
+.PHONY : 202_快乐数.cpp.i
+
+202_快乐数.s: 202_快乐数.cpp.s
+.PHONY : 202_快乐数.s
+
+# target to generate assembly for a file
+202_快乐数.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/202_快乐数.cpp.s
+.PHONY : 202_快乐数.cpp.s
+
 203_移除链表元素.o: 203_移除链表元素.cpp.o
 .PHONY : 203_移除链表元素.o
 
@@ -393,6 +441,54 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/30_串联所有单词的子串.cpp.s
 .PHONY : 30_串联所有单词的子串.cpp.s
 
+349_两个数组的交集.o: 349_两个数组的交集.cpp.o
+.PHONY : 349_两个数组的交集.o
+
+# target to build an object file
+349_两个数组的交集.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.o
+.PHONY : 349_两个数组的交集.cpp.o
+
+349_两个数组的交集.i: 349_两个数组的交集.cpp.i
+.PHONY : 349_两个数组的交集.i
+
+# target to preprocess a source file
+349_两个数组的交集.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.i
+.PHONY : 349_两个数组的交集.cpp.i
+
+349_两个数组的交集.s: 349_两个数组的交集.cpp.s
+.PHONY : 349_两个数组的交集.s
+
+# target to generate assembly for a file
+349_两个数组的交集.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.s
+.PHONY : 349_两个数组的交集.cpp.s
+
+383_赎金信.o: 383_赎金信.cpp.o
+.PHONY : 383_赎金信.o
+
+# target to build an object file
+383_赎金信.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/383_赎金信.cpp.o
+.PHONY : 383_赎金信.cpp.o
+
+383_赎金信.i: 383_赎金信.cpp.i
+.PHONY : 383_赎金信.i
+
+# target to preprocess a source file
+383_赎金信.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/383_赎金信.cpp.i
+.PHONY : 383_赎金信.cpp.i
+
+383_赎金信.s: 383_赎金信.cpp.s
+.PHONY : 383_赎金信.s
+
+# target to generate assembly for a file
+383_赎金信.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/383_赎金信.cpp.s
+.PHONY : 383_赎金信.cpp.s
+
 438_找到字符串中所有字母异位词.o: 438_找到字符串中所有字母异位词.cpp.o
 .PHONY : 438_找到字符串中所有字母异位词.o
 
@@ -416,6 +512,30 @@ leetcode/fast:
 438_找到字符串中所有字母异位词.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/438_找到字符串中所有字母异位词.cpp.s
 .PHONY : 438_找到字符串中所有字母异位词.cpp.s
+
+454_四数相加II.o: 454_四数相加II.cpp.o
+.PHONY : 454_四数相加II.o
+
+# target to build an object file
+454_四数相加II.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/454_四数相加II.cpp.o
+.PHONY : 454_四数相加II.cpp.o
+
+454_四数相加II.i: 454_四数相加II.cpp.i
+.PHONY : 454_四数相加II.i
+
+# target to preprocess a source file
+454_四数相加II.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/454_四数相加II.cpp.i
+.PHONY : 454_四数相加II.cpp.i
+
+454_四数相加II.s: 454_四数相加II.cpp.s
+.PHONY : 454_四数相加II.s
+
+# target to generate assembly for a file
+454_四数相加II.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/454_四数相加II.cpp.s
+.PHONY : 454_四数相加II.cpp.s
 
 59_螺旋矩阵II.o: 59_螺旋矩阵II.cpp.o
 .PHONY : 59_螺旋矩阵II.o
@@ -531,6 +651,12 @@ help:
 	@echo "... 19_删除链表的倒数第_N_个结点.o"
 	@echo "... 19_删除链表的倒数第_N_个结点.i"
 	@echo "... 19_删除链表的倒数第_N_个结点.s"
+	@echo "... 1_两数之和.o"
+	@echo "... 1_两数之和.i"
+	@echo "... 1_两数之和.s"
+	@echo "... 202_快乐数.o"
+	@echo "... 202_快乐数.i"
+	@echo "... 202_快乐数.s"
 	@echo "... 203_移除链表元素.o"
 	@echo "... 203_移除链表元素.i"
 	@echo "... 203_移除链表元素.s"
@@ -555,9 +681,18 @@ help:
 	@echo "... 30_串联所有单词的子串.o"
 	@echo "... 30_串联所有单词的子串.i"
 	@echo "... 30_串联所有单词的子串.s"
+	@echo "... 349_两个数组的交集.o"
+	@echo "... 349_两个数组的交集.i"
+	@echo "... 349_两个数组的交集.s"
+	@echo "... 383_赎金信.o"
+	@echo "... 383_赎金信.i"
+	@echo "... 383_赎金信.s"
 	@echo "... 438_找到字符串中所有字母异位词.o"
 	@echo "... 438_找到字符串中所有字母异位词.i"
 	@echo "... 438_找到字符串中所有字母异位词.s"
+	@echo "... 454_四数相加II.o"
+	@echo "... 454_四数相加II.i"
+	@echo "... 454_四数相加II.s"
 	@echo "... 59_螺旋矩阵II.o"
 	@echo "... 59_螺旋矩阵II.i"
 	@echo "... 59_螺旋矩阵II.s"

@@ -18,4 +18,9 @@ add_executable(leetcode main.cpp 30_串联所有单词的子串.cpp 438_找到�
         "19_删除链表的倒数第 N 个结点.cpp"
         160_相交链表.cpp
         142_环形链表II.cpp
-        242_有效的字母异位词.cpp)
+        242_有效的字母异位词.cpp
+        349_两个数组的交集.cpp
+        202_快乐数.cpp
+        1_两数之和.cpp
+        454_四数相加II.cpp
+        383_赎金信.cpp)

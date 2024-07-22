@@ -293,6 +293,76 @@ CMakeFiles/leetcode.dir/242_有效的字母异位词.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/242_有效的字母异位词.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/WSL/NoteBook/leetcode_cpp/242_有效的字母异位词.cpp -o CMakeFiles/leetcode.dir/242_有效的字母异位词.cpp.s
 
+CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.o: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.o: ../349_两个数组的交集.cpp
+CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.o: CMakeFiles/leetcode.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.o -MF CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.o.d -o CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.o -c /mnt/d/WSL/NoteBook/leetcode_cpp/349_两个数组的交集.cpp
+
+CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/WSL/NoteBook/leetcode_cpp/349_两个数组的交集.cpp > CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.i
+
+CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/WSL/NoteBook/leetcode_cpp/349_两个数组的交集.cpp -o CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.s
+
+CMakeFiles/leetcode.dir/202_快乐数.cpp.o: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/202_快乐数.cpp.o: ../202_快乐数.cpp
+CMakeFiles/leetcode.dir/202_快乐数.cpp.o: CMakeFiles/leetcode.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/leetcode.dir/202_快乐数.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode.dir/202_快乐数.cpp.o -MF CMakeFiles/leetcode.dir/202_快乐数.cpp.o.d -o CMakeFiles/leetcode.dir/202_快乐数.cpp.o -c /mnt/d/WSL/NoteBook/leetcode_cpp/202_快乐数.cpp
+
+CMakeFiles/leetcode.dir/202_快乐数.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/202_快乐数.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/WSL/NoteBook/leetcode_cpp/202_快乐数.cpp > CMakeFiles/leetcode.dir/202_快乐数.cpp.i
+
+CMakeFiles/leetcode.dir/202_快乐数.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/202_快乐数.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/WSL/NoteBook/leetcode_cpp/202_快乐数.cpp -o CMakeFiles/leetcode.dir/202_快乐数.cpp.s
+
+CMakeFiles/leetcode.dir/1_两数之和.cpp.o: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/1_两数之和.cpp.o: ../1_两数之和.cpp
+CMakeFiles/leetcode.dir/1_两数之和.cpp.o: CMakeFiles/leetcode.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/leetcode.dir/1_两数之和.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode.dir/1_两数之和.cpp.o -MF CMakeFiles/leetcode.dir/1_两数之和.cpp.o.d -o CMakeFiles/leetcode.dir/1_两数之和.cpp.o -c /mnt/d/WSL/NoteBook/leetcode_cpp/1_两数之和.cpp
+
+CMakeFiles/leetcode.dir/1_两数之和.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/1_两数之和.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/WSL/NoteBook/leetcode_cpp/1_两数之和.cpp > CMakeFiles/leetcode.dir/1_两数之和.cpp.i
+
+CMakeFiles/leetcode.dir/1_两数之和.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/1_两数之和.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/WSL/NoteBook/leetcode_cpp/1_两数之和.cpp -o CMakeFiles/leetcode.dir/1_两数之和.cpp.s
+
+CMakeFiles/leetcode.dir/454_四数相加II.cpp.o: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/454_四数相加II.cpp.o: ../454_四数相加II.cpp
+CMakeFiles/leetcode.dir/454_四数相加II.cpp.o: CMakeFiles/leetcode.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/leetcode.dir/454_四数相加II.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode.dir/454_四数相加II.cpp.o -MF CMakeFiles/leetcode.dir/454_四数相加II.cpp.o.d -o CMakeFiles/leetcode.dir/454_四数相加II.cpp.o -c /mnt/d/WSL/NoteBook/leetcode_cpp/454_四数相加II.cpp
+
+CMakeFiles/leetcode.dir/454_四数相加II.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/454_四数相加II.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/WSL/NoteBook/leetcode_cpp/454_四数相加II.cpp > CMakeFiles/leetcode.dir/454_四数相加II.cpp.i
+
+CMakeFiles/leetcode.dir/454_四数相加II.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/454_四数相加II.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/WSL/NoteBook/leetcode_cpp/454_四数相加II.cpp -o CMakeFiles/leetcode.dir/454_四数相加II.cpp.s
+
+CMakeFiles/leetcode.dir/383_赎金信.cpp.o: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/383_赎金信.cpp.o: ../383_赎金信.cpp
+CMakeFiles/leetcode.dir/383_赎金信.cpp.o: CMakeFiles/leetcode.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/leetcode.dir/383_赎金信.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode.dir/383_赎金信.cpp.o -MF CMakeFiles/leetcode.dir/383_赎金信.cpp.o.d -o CMakeFiles/leetcode.dir/383_赎金信.cpp.o -c /mnt/d/WSL/NoteBook/leetcode_cpp/383_赎金信.cpp
+
+CMakeFiles/leetcode.dir/383_赎金信.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/383_赎金信.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/WSL/NoteBook/leetcode_cpp/383_赎金信.cpp > CMakeFiles/leetcode.dir/383_赎金信.cpp.i
+
+CMakeFiles/leetcode.dir/383_赎金信.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/383_赎金信.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/WSL/NoteBook/leetcode_cpp/383_赎金信.cpp -o CMakeFiles/leetcode.dir/383_赎金信.cpp.s
+
 # Object files for target leetcode
 leetcode_OBJECTS = \
 "CMakeFiles/leetcode.dir/main.cpp.o" \
@@ -310,7 +380,12 @@ leetcode_OBJECTS = \
 "CMakeFiles/leetcode.dir/19_删除链表的倒数第_N_个结点.cpp.o" \
 "CMakeFiles/leetcode.dir/160_相交链表.cpp.o" \
 "CMakeFiles/leetcode.dir/142_环形链表II.cpp.o" \
-"CMakeFiles/leetcode.dir/242_有效的字母异位词.cpp.o"
+"CMakeFiles/leetcode.dir/242_有效的字母异位词.cpp.o" \
+"CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.o" \
+"CMakeFiles/leetcode.dir/202_快乐数.cpp.o" \
+"CMakeFiles/leetcode.dir/1_两数之和.cpp.o" \
+"CMakeFiles/leetcode.dir/454_四数相加II.cpp.o" \
+"CMakeFiles/leetcode.dir/383_赎金信.cpp.o"
 
 # External object files for target leetcode
 leetcode_EXTERNAL_OBJECTS =
@@ -331,9 +406,14 @@ leetcode: CMakeFiles/leetcode.dir/19_删除链表的倒数第_N_个结点.cpp.o
 leetcode: CMakeFiles/leetcode.dir/160_相交链表.cpp.o
 leetcode: CMakeFiles/leetcode.dir/142_环形链表II.cpp.o
 leetcode: CMakeFiles/leetcode.dir/242_有效的字母异位词.cpp.o
+leetcode: CMakeFiles/leetcode.dir/349_两个数组的交集.cpp.o
+leetcode: CMakeFiles/leetcode.dir/202_快乐数.cpp.o
+leetcode: CMakeFiles/leetcode.dir/1_两数之和.cpp.o
+leetcode: CMakeFiles/leetcode.dir/454_四数相加II.cpp.o
+leetcode: CMakeFiles/leetcode.dir/383_赎金信.cpp.o
 leetcode: CMakeFiles/leetcode.dir/build.make
 leetcode: CMakeFiles/leetcode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable leetcode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/WSL/NoteBook/leetcode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable leetcode"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/leetcode.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
