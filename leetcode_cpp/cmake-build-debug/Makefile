@@ -153,6 +153,30 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/142_环形链表II.cpp.s
 .PHONY : 142_环形链表II.cpp.s
 
+15_三数之和.o: 15_三数之和.cpp.o
+.PHONY : 15_三数之和.o
+
+# target to build an object file
+15_三数之和.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/15_三数之和.cpp.o
+.PHONY : 15_三数之和.cpp.o
+
+15_三数之和.i: 15_三数之和.cpp.i
+.PHONY : 15_三数之和.i
+
+# target to preprocess a source file
+15_三数之和.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/15_三数之和.cpp.i
+.PHONY : 15_三数之和.cpp.i
+
+15_三数之和.s: 15_三数之和.cpp.s
+.PHONY : 15_三数之和.s
+
+# target to generate assembly for a file
+15_三数之和.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/15_三数之和.cpp.s
+.PHONY : 15_三数之和.cpp.s
+
 160_相交链表.o: 160_相交链表.cpp.o
 .PHONY : 160_相交链表.o
 
@@ -645,6 +669,9 @@ help:
 	@echo "... 142_环形链表II.o"
 	@echo "... 142_环形链表II.i"
 	@echo "... 142_环形链表II.s"
+	@echo "... 15_三数之和.o"
+	@echo "... 15_三数之和.i"
+	@echo "... 15_三数之和.s"
 	@echo "... 160_相交链表.o"
 	@echo "... 160_相交链表.i"
 	@echo "... 160_相交链表.s"
