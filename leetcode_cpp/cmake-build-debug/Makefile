@@ -201,6 +201,30 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/160_相交链表.cpp.s
 .PHONY : 160_相交链表.cpp.s
 
+18_四数之和.o: 18_四数之和.cpp.o
+.PHONY : 18_四数之和.o
+
+# target to build an object file
+18_四数之和.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/18_四数之和.cpp.o
+.PHONY : 18_四数之和.cpp.o
+
+18_四数之和.i: 18_四数之和.cpp.i
+.PHONY : 18_四数之和.i
+
+# target to preprocess a source file
+18_四数之和.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/18_四数之和.cpp.i
+.PHONY : 18_四数之和.cpp.i
+
+18_四数之和.s: 18_四数之和.cpp.s
+.PHONY : 18_四数之和.s
+
+# target to generate assembly for a file
+18_四数之和.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/18_四数之和.cpp.s
+.PHONY : 18_四数之和.cpp.s
+
 19_删除链表的倒数第_N_个结点.o: 19_删除链表的倒数第_N_个结点.cpp.o
 .PHONY : 19_删除链表的倒数第_N_个结点.o
 
@@ -675,6 +699,9 @@ help:
 	@echo "... 160_相交链表.o"
 	@echo "... 160_相交链表.i"
 	@echo "... 160_相交链表.s"
+	@echo "... 18_四数之和.o"
+	@echo "... 18_四数之和.i"
+	@echo "... 18_四数之和.s"
 	@echo "... 19_删除链表的倒数第_N_个结点.o"
 	@echo "... 19_删除链表的倒数第_N_个结点.i"
 	@echo "... 19_删除链表的倒数第_N_个结点.s"

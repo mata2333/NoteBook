@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/leetcode.dir/15_三数之和.cpp.o.d"
   "CMakeFiles/leetcode.dir/160_相交链表.cpp.o"
   "CMakeFiles/leetcode.dir/160_相交链表.cpp.o.d"
+  "CMakeFiles/leetcode.dir/18_四数之和.cpp.o"
+  "CMakeFiles/leetcode.dir/18_四数之和.cpp.o.d"
   "CMakeFiles/leetcode.dir/19_删除链表的倒数第_N_个结点.cpp.o"
   "CMakeFiles/leetcode.dir/19_删除链表的倒数第_N_个结点.cpp.o.d"
   "CMakeFiles/leetcode.dir/1_两数之和.cpp.o"
