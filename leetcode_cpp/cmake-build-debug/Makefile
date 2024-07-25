@@ -489,6 +489,30 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/30_串联所有单词的子串.cpp.s
 .PHONY : 30_串联所有单词的子串.cpp.s
 
+344_反转字符串.o: 344_反转字符串.cpp.o
+.PHONY : 344_反转字符串.o
+
+# target to build an object file
+344_反转字符串.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/344_反转字符串.cpp.o
+.PHONY : 344_反转字符串.cpp.o
+
+344_反转字符串.i: 344_反转字符串.cpp.i
+.PHONY : 344_反转字符串.i
+
+# target to preprocess a source file
+344_反转字符串.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/344_反转字符串.cpp.i
+.PHONY : 344_反转字符串.cpp.i
+
+344_反转字符串.s: 344_反转字符串.cpp.s
+.PHONY : 344_反转字符串.s
+
+# target to generate assembly for a file
+344_反转字符串.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/344_反转字符串.cpp.s
+.PHONY : 344_反转字符串.cpp.s
+
 349_两个数组的交集.o: 349_两个数组的交集.cpp.o
 .PHONY : 349_两个数组的交集.o
 
@@ -584,6 +608,30 @@ leetcode/fast:
 454_四数相加II.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/454_四数相加II.cpp.s
 .PHONY : 454_四数相加II.cpp.s
+
+541_反转字符串II.o: 541_反转字符串II.cpp.o
+.PHONY : 541_反转字符串II.o
+
+# target to build an object file
+541_反转字符串II.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/541_反转字符串II.cpp.o
+.PHONY : 541_反转字符串II.cpp.o
+
+541_反转字符串II.i: 541_反转字符串II.cpp.i
+.PHONY : 541_反转字符串II.i
+
+# target to preprocess a source file
+541_反转字符串II.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/541_反转字符串II.cpp.i
+.PHONY : 541_反转字符串II.cpp.i
+
+541_反转字符串II.s: 541_反转字符串II.cpp.s
+.PHONY : 541_反转字符串II.s
+
+# target to generate assembly for a file
+541_反转字符串II.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/541_反转字符串II.cpp.s
+.PHONY : 541_反转字符串II.cpp.s
 
 59_螺旋矩阵II.o: 59_螺旋矩阵II.cpp.o
 .PHONY : 59_螺旋矩阵II.o
@@ -735,6 +783,9 @@ help:
 	@echo "... 30_串联所有单词的子串.o"
 	@echo "... 30_串联所有单词的子串.i"
 	@echo "... 30_串联所有单词的子串.s"
+	@echo "... 344_反转字符串.o"
+	@echo "... 344_反转字符串.i"
+	@echo "... 344_反转字符串.s"
 	@echo "... 349_两个数组的交集.o"
 	@echo "... 349_两个数组的交集.i"
 	@echo "... 349_两个数组的交集.s"
@@ -747,6 +798,9 @@ help:
 	@echo "... 454_四数相加II.o"
 	@echo "... 454_四数相加II.i"
 	@echo "... 454_四数相加II.s"
+	@echo "... 541_反转字符串II.o"
+	@echo "... 541_反转字符串II.i"
+	@echo "... 541_反转字符串II.s"
 	@echo "... 59_螺旋矩阵II.o"
 	@echo "... 59_螺旋矩阵II.i"
 	@echo "... 59_螺旋矩阵II.s"

@@ -127,6 +127,9 @@
 		<Unit filename="/mnt/d/WSL/NoteBook/leetcode_cpp/30_串联所有单词的子串.cpp">
 			<Option target="leetcode"/>
 		</Unit>
+		<Unit filename="/mnt/d/WSL/NoteBook/leetcode_cpp/344_反转字符串.cpp">
+			<Option target="leetcode"/>
+		</Unit>
 		<Unit filename="/mnt/d/WSL/NoteBook/leetcode_cpp/349_两个数组的交集.cpp">
 			<Option target="leetcode"/>
 		</Unit>
@@ -137,6 +140,9 @@
 			<Option target="leetcode"/>
 		</Unit>
 		<Unit filename="/mnt/d/WSL/NoteBook/leetcode_cpp/454_四数相加II.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/mnt/d/WSL/NoteBook/leetcode_cpp/541_反转字符串II.cpp">
 			<Option target="leetcode"/>
 		</Unit>
 		<Unit filename="/mnt/d/WSL/NoteBook/leetcode_cpp/59_螺旋矩阵II.cpp">

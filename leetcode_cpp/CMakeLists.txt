@@ -25,4 +25,6 @@ add_executable(leetcode main.cpp 30_串联所有单词的子串.cpp 438_找到�
         454_四数相加II.cpp
         383_赎金信.cpp
         15_三数之和.cpp
-        18_四数之和.cpp)
+        18_四数之和.cpp
+        344_反转字符串.cpp
+        541_反转字符串II.cpp)
