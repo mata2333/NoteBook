@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/leetcode.dir/142_环形链表II.cpp.o"
   "CMakeFiles/leetcode.dir/142_环形链表II.cpp.o.d"
+  "CMakeFiles/leetcode.dir/151_反转字符串中的单词.cpp.o"
+  "CMakeFiles/leetcode.dir/151_反转字符串中的单词.cpp.o.d"
   "CMakeFiles/leetcode.dir/15_三数之和.cpp.o"
   "CMakeFiles/leetcode.dir/15_三数之和.cpp.o.d"
   "CMakeFiles/leetcode.dir/160_相交链表.cpp.o"
@@ -27,6 +29,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/leetcode.dir/24_两两交换链表中的节点.cpp.o.d"
   "CMakeFiles/leetcode.dir/27_移除元素.cpp.o"
   "CMakeFiles/leetcode.dir/27_移除元素.cpp.o.d"
+  "CMakeFiles/leetcode.dir/28_找出字符串中第一个匹配项的下标.cpp.o"
+  "CMakeFiles/leetcode.dir/28_找出字符串中第一个匹配项的下标.cpp.o.d"
   "CMakeFiles/leetcode.dir/30_串联所有单词的子串.cpp.o"
   "CMakeFiles/leetcode.dir/30_串联所有单词的子串.cpp.o.d"
   "CMakeFiles/leetcode.dir/344_反转字符串.cpp.o"

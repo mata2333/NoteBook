@@ -27,4 +27,6 @@ add_executable(leetcode main.cpp 30_串联所有单词的子串.cpp 438_找到�
         15_三数之和.cpp
         18_四数之和.cpp
         344_反转字符串.cpp
-        541_反转字符串II.cpp)
+        541_反转字符串II.cpp
+        151_反转字符串中的单词.cpp
+        28_找出字符串中第一个匹配项的下标.cpp)

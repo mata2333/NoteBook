@@ -153,6 +153,30 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/142_环形链表II.cpp.s
 .PHONY : 142_环形链表II.cpp.s
 
+151_反转字符串中的单词.o: 151_反转字符串中的单词.cpp.o
+.PHONY : 151_反转字符串中的单词.o
+
+# target to build an object file
+151_反转字符串中的单词.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/151_反转字符串中的单词.cpp.o
+.PHONY : 151_反转字符串中的单词.cpp.o
+
+151_反转字符串中的单词.i: 151_反转字符串中的单词.cpp.i
+.PHONY : 151_反转字符串中的单词.i
+
+# target to preprocess a source file
+151_反转字符串中的单词.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/151_反转字符串中的单词.cpp.i
+.PHONY : 151_反转字符串中的单词.cpp.i
+
+151_反转字符串中的单词.s: 151_反转字符串中的单词.cpp.s
+.PHONY : 151_反转字符串中的单词.s
+
+# target to generate assembly for a file
+151_反转字符串中的单词.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/151_反转字符串中的单词.cpp.s
+.PHONY : 151_反转字符串中的单词.cpp.s
+
 15_三数之和.o: 15_三数之和.cpp.o
 .PHONY : 15_三数之和.o
 
@@ -465,6 +489,30 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/27_移除元素.cpp.s
 .PHONY : 27_移除元素.cpp.s
 
+28_找出字符串中第一个匹配项的下标.o: 28_找出字符串中第一个匹配项的下标.cpp.o
+.PHONY : 28_找出字符串中第一个匹配项的下标.o
+
+# target to build an object file
+28_找出字符串中第一个匹配项的下标.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/28_找出字符串中第一个匹配项的下标.cpp.o
+.PHONY : 28_找出字符串中第一个匹配项的下标.cpp.o
+
+28_找出字符串中第一个匹配项的下标.i: 28_找出字符串中第一个匹配项的下标.cpp.i
+.PHONY : 28_找出字符串中第一个匹配项的下标.i
+
+# target to preprocess a source file
+28_找出字符串中第一个匹配项的下标.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/28_找出字符串中第一个匹配项的下标.cpp.i
+.PHONY : 28_找出字符串中第一个匹配项的下标.cpp.i
+
+28_找出字符串中第一个匹配项的下标.s: 28_找出字符串中第一个匹配项的下标.cpp.s
+.PHONY : 28_找出字符串中第一个匹配项的下标.s
+
+# target to generate assembly for a file
+28_找出字符串中第一个匹配项的下标.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/28_找出字符串中第一个匹配项的下标.cpp.s
+.PHONY : 28_找出字符串中第一个匹配项的下标.cpp.s
+
 30_串联所有单词的子串.o: 30_串联所有单词的子串.cpp.o
 .PHONY : 30_串联所有单词的子串.o
 
@@ -741,6 +789,9 @@ help:
 	@echo "... 142_环形链表II.o"
 	@echo "... 142_环形链表II.i"
 	@echo "... 142_环形链表II.s"
+	@echo "... 151_反转字符串中的单词.o"
+	@echo "... 151_反转字符串中的单词.i"
+	@echo "... 151_反转字符串中的单词.s"
 	@echo "... 15_三数之和.o"
 	@echo "... 15_三数之和.i"
 	@echo "... 15_三数之和.s"
@@ -780,6 +831,9 @@ help:
 	@echo "... 27_移除元素.o"
 	@echo "... 27_移除元素.i"
 	@echo "... 27_移除元素.s"
+	@echo "... 28_找出字符串中第一个匹配项的下标.o"
+	@echo "... 28_找出字符串中第一个匹配项的下标.i"
+	@echo "... 28_找出字符串中第一个匹配项的下标.s"
 	@echo "... 30_串联所有单词的子串.o"
 	@echo "... 30_串联所有单词的子串.i"
 	@echo "... 30_串联所有单词的子串.s"
