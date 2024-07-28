@@ -1,36 +1,71 @@
 #include <iostream>
+#include <string>
+#include <vector>
 #include <unordered_map>
-
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode() : val(0), next(nullptr) {}
-    ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
-};
+using namespace std;
 
 class Solution {
 public:
-    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        std::unordered_map<ListNode*, int> map;
-        ListNode* p = headA;
-        while (p) {
-            map[p]++;
-            p = p->next;
-        }
-        p = headB;
-        while (p) {
-            if (map[p] != 0) {
-                return p;
+    // 暴力求解next数组
+    vector<int> getNextArray(string s) {
+        vector<int> ans(s.size(), 0);
+        for (int i = 0; i < s.size(); ++i) {
+            int left = i - 1, right = 1;
+            while (left >= 0 && right <= i) {
+                if (s.substr(0, left + 1) == s.substr(right, i - right + 1))
+                    break;
+                left--;
+                right++;
             }
-            p = p->next;
+            ans[i] = left + 1;
         }
-        return nullptr;
+        return ans;
+    }
+    // 递推法求next
+    vector<int> getNext (const string s){
+        vector<int> next(s.size(), 0);
+        int left = 0, right = 1;
+        int len = 0;
+        while (right < s.size()) {
+            if (s[right] == s[left]) {
+                len++;
+                next[right] = len;
+                left++;
+                right++;
+            } else {
+                if (left > 0)
+                    left = next[left - 1];
+                else {
+                    next[right] = len;
+                    right++;
+                }
+                len = left;
+            }
+        }
+        return next;
+    }
+    // 移动匹配
+    bool repeatedSubstringPattern1(string s) {
+        string tmp = s + s;
+        if (tmp.substr(1, tmp.size() - 2).find(s) != s.npos)
+            return true;
+        return false;
+    }
+    // KMP算法
+    bool repeatedSubstringPattern(string s) {
+        if (s.size() <= 1)
+            return false;
+        vector<int> next = getNext(s);
+        return (s.size() % (s.size() - next[s.size() - 1]) == 0) && next[s.size() - 1] != 0;
     }
 };
 
 
 int main() {
-    int arr[] = {92,23,40,78,57,56,20,12,83,21,51,56,9,76,8,73,31,80,37,33,92,16,1,14,17,84,23,8,80,2,23,53,90,17,98,19,24,12,43,17,9,21,50,28,79,83,40,40,45,33,70,42};
-
+    string str = "ABACABAB";
+    Solution solution;
+    auto arr = solution.getNext(str);
+    for (int i : arr) {
+        printf("%d ", i);
+    }
 }
