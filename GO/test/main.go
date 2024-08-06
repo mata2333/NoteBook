@@ -7,6 +7,7 @@ import (
 	"path/filepath"
 	"runtime"
 	"strings"
+	"sync"
 )
 
 func copyFile(src, dst string) error {
@@ -43,9 +44,30 @@ func copyFile(src, dst string) error {
 	return nil
 }
 
+func batchCopyFiles(srcs []string, dst string) error {
+	for _, src := range srcs {
+		fileName := filepath.Base(src)
+		err := copyFile(src, dst+strings.TrimSuffix(fileName, ".jpeg")+".jpg")
+		if err != nil {
+			return err
+		}
+		fmt.Println(src, "done")
+	}
+	return nil
+}
+
 func main() {
 	root := "d:\\"
+	dst := ".\\output"
 	maxDepth := 3
+	var jpegFiles []string
+	var separator string
+
+	if runtime.GOOS == "windows" {
+		separator = "\\"
+	} else {
+		separator = "/"
+	}
 	err := filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			if os.IsPermission(err) {
@@ -53,12 +75,6 @@ func main() {
 			}
 			fmt.Println("Error accessing path", path, ":", err)
 			return err
-		}
-		var separator string
-		if runtime.GOOS == "windows" {
-			separator = "\\"
-		} else {
-			separator = "/"
 		}
 		cleanPath := filepath.Clean(path)
 		if info.IsDir() && strings.Count(cleanPath, separator) == maxDepth {
@@ -68,16 +84,39 @@ func main() {
 		if ext == ".jpeg" {
 			fileSize := info.Size()
 			if fileSize < 10*1024 {
-				err := copyFile(path, "."+separator+"output"+separator+strings.TrimSuffix(info.Name(), ".jpeg")+".jpg")
-				if err != nil {
-					return err
-				}
+				jpegFiles = append(jpegFiles, path)
+				//err := copyFile(path, "."+separator+"output"+separator+strings.TrimSuffix(info.Name(), ".jpeg")+".jpg")
+				//if err != nil {
+				//	return err
+				//}
 			}
 		}
-		fmt.Println(cleanPath)
+		//fmt.Println(cleanPath)
 		return nil
 	})
 	if err != nil {
 		fmt.Println("Error walking the path:", err)
+	}
+	fmt.Println(jpegFiles)
+	if len(jpegFiles) > 0 {
+		var wg sync.WaitGroup
+		wg.Add(2)
+		go func() {
+			defer wg.Done()
+			err := batchCopyFiles(jpegFiles[:len(jpegFiles)/2], dst+separator)
+			if err != nil {
+				fmt.Println(err)
+			}
+		}()
+		go func() {
+			defer wg.Done()
+			err := batchCopyFiles(jpegFiles[len(jpegFiles)/2:], dst+separator)
+			if err != nil {
+				fmt.Println(err)
+			}
+		}()
+		wg.Wait()
+	} else {
+		fmt.Println("Error: no jpegFiles")
 	}
 }
